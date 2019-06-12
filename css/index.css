@@ -1,7 +1,14 @@
 .header{
+    background-color: #2c2f34;
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
+    position: fixed;
+    top: 25px;
+    left: 0px;
+    right: 0px;
+    margin: 10px 15px;
+    z-index: 1;
 }
 
 .header .header__title{
@@ -14,9 +21,28 @@
     padding-left: 20px;
 }
 
+.chats{
+    margin-top: 100px;
+}
+
+.chats .chat{
+    margin-bottom: 25px;
+}
+
 .chats .chat__link{
     display: flex;
+    position: relative;
 }
+
+.chat__link .chat__room-name{
+    margin-bottom: 5px;
+}
+
+.chat__link .chat__timestamp{
+    position: absolute;
+    right: 20px;
+}
+
 .chats .chat__column{
     display: flex;
     align-items: center;

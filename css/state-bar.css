@@ -1,5 +1,15 @@
 .state-bar{
+    background-color: #212226;
     display: flex;
     justify-content: space-between;
-    padding: 0px 10px;
+    padding: 10px 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.state-bar i{
+    margin-right: 5px;
 }
