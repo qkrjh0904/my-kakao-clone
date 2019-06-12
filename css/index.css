@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.header .header__title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.header i{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.chats .chat__link{
+    display: flex;
+}
+.chats .chat__column{
+    display: flex;
+    align-items: center;
+}
+
+.chats .chat__profile-img{
+    width: 45px;
+    border-radius: 15px;
+}
+
+.chats .chat__room-name,
+.chats .chat__preview{
+    display: block;
+}
+
+.chats .chat__content{
+    margin-left: 20px;
+}
