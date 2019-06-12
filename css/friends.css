@@ -1,3 +1,7 @@
+.header i{
+    cursor: pointer;
+}
+
 .friends{
     margin-top: 100px;
 }
@@ -25,7 +29,7 @@
 
 .friends__title{
     margin: 20px 0px;
-    color: #adb5bd;
+    opacity: 0.7;
 }
 
 .friends__name,
@@ -44,14 +48,15 @@
 
 .friends__state-msg{
     font-size: 13px;
-    color: #adb5bd;
+    opacity: 0.6;
 }
 
 .friends__friend .friends__gift{
     position: absolute;
     right: 20px;
     padding: 8px 16px;
-    color: #adb5bd;
-    border: 1px solid #adb5bd;
+    opacity: 0.6;
+    border: 1px solid;
     border-radius: 20px;
+    cursor: pointer;
 }
