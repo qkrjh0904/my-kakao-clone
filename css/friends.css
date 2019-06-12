@@ -1,0 +1,57 @@
+.friends{
+    margin-top: 100px;
+}
+
+.friends .friends__img{
+    width: 45px;
+    border-radius: 15px;
+}
+
+.my-profile__img{
+    width: 60px;
+    border-radius: 20px;
+}
+
+.friends .my-frofile__go,
+.friends__friend{
+    display: flex;
+    align-items: center;
+}
+
+.friends__friend{
+    position: relative;
+    margin: 20px 0px;
+}
+
+.friends__title{
+    margin: 20px 0px;
+    color: #adb5bd;
+}
+
+.friends__name,
+.my-profile__name,
+.friends__state-msg{
+    margin-left: 20px;
+}
+
+.my-profile__name,
+.friends__name{
+    display: block;
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.friends__state-msg{
+    font-size: 13px;
+    color: #adb5bd;
+}
+
+.friends__friend .friends__gift{
+    position: absolute;
+    right: 20px;
+    padding: 8px 16px;
+    color: #adb5bd;
+    border: 1px solid #adb5bd;
+    border-radius: 20px;
+}
